@@ -1,0 +1,1 @@
+Blog post for SA Books AI — AI-generated books for the SA market
