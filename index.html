@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>SA Books AI — AI-Generated Books for South Africa</title><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Inter', -apple-system, system-ui, sans-serif; background: #0a0a0a; color: #f0f0f0; line-height: 1.6; }
+  a { color: inherit; text-decoration: none; }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+  nav { position: fixed; top: 0; width: 100%; z-index: 100; background: rgba(10,10,10,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.06); }
+  .nav-inner { display: flex; justify-content: space-between; align-items: center; height: 64px; }
+  .logo { font-size: 20px; font-weight: 800; letter-spacing: -0.5px; }
+  .nav-links { display: flex; gap: 28px; font-size: 14px; color: #999; }
+  .nav-links a:hover { color: #fff; }
+  .btn-primary { background: var(--accent); color: #000; padding: 12px 28px; border-radius: 10px; font-weight: 700; font-size: 15px; border: none; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; transition: all 0.2s; }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 25px var(--accent-glow); }
+  .btn-outline { background: transparent; color: #fff; padding: 12px 28px; border-radius: 10px; font-weight: 600; font-size: 15px; border: 1px solid rgba(255,255,255,0.15); cursor: pointer; transition: all 0.2s; }
+  .btn-outline:hover { border-color: rgba(255,255,255,0.3); background: rgba(255,255,255,0.03); }
+  .card { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 32px; transition: border-color 0.3s; }
+  .card:hover { border-color: var(--accent); }
+  .section { padding: 100px 0; }
+  .text-center { text-align: center; }
+  .gradient { background: linear-gradient(135deg, var(--accent), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .badge { display: inline-block; padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 600; background: var(--accent-bg); color: var(--accent); border: 1px solid var(--accent-border); }
+  footer { border-top: 1px solid rgba(255,255,255,0.06); padding: 40px 0; text-align: center; color: #666; font-size: 13px; }
+  .subscribe-section { padding: 60px 0; text-align: center; border-top: 1px solid rgba(255,255,255,0.06); }
+  .subscribe-form { display: flex; gap: 8px; max-width: 420px; margin: 0 auto; }
+  .subscribe-form input { flex: 1; padding: 14px 18px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.05); color: #fff; font-size: 15px; }
+  .subscribe-msg { font-size: 12px; color: #22c55e; margin-top: 10px; display: none; }
+  @media (max-width: 768px) { .grid-2, .grid-3 { grid-template-columns: 1fr !important; } .hero h1 { font-size: 32px !important; } .nav-links { display: none; } .subscribe-form { flex-direction: column; } }
+:root{--accent:#06b6d4;--accent2:#3b82f6;--accent-glow:rgba(6,182,212,0.3);--accent-bg:rgba(6,182,212,0.1);--accent-border:rgba(6,182,212,0.2);}</style></head><body>
+  <nav><div class="container nav-inner"><div class="logo" style="color:#06b6d4">SA Books<span style="color:#fff"> AI</span></div><div class="nav-links"><a href="#books">Books</a><a href="#categories">Categories</a><button class="btn-primary" style="padding:8px 18px;font-size:13px">Browse Library</button></div></div></nav>
+  <section class="hero section" style="padding-top:160px"><div class="container text-center">
+    <div class="badge" style="margin-bottom:24px">📚 20+ titles available</div>
+    <h1 style="font-size:52px;font-weight:800;line-height:1.1;margin-bottom:20px">AI-Generated Books<br>for <span class="gradient">South Africa</span></h1>
+    <p style="font-size:18px;color:#888;max-width:500px;margin:0 auto 36px">Practical guides on budgeting, careers, business, and life — written specifically for the SA market.</p>
+    <button class="btn-primary" style="font-size:16px;padding:14px 32px">Browse Library ↓</button>
+  </div></section>
+  <section class="section" id="books" style="background:rgba(255,255,255,0.02)"><div class="container">
+    <h2 style="font-size:32px;font-weight:800;margin-bottom:36px;text-align:center">Latest Releases</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px">
+      <div class="card"><div style="display:flex;align-items:center;gap:12px;margin-bottom:16px"><div style="width:50px;height:65px;background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2));border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">💰</div><div><div style="font-size:11px;color:#06b6d4;font-weight:600;text-transform:uppercase">Finance</div><h3 style="font-size:15px;font-weight:700;line-height:1.3">Budgeting for SA Millennials</h3></div></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:20px;font-weight:800">R99</span><button class="btn-primary" style="padding:8px 18px;font-size:13px">Buy on Amazon</button></div></div><div class="card"><div style="display:flex;align-items:center;gap:12px;margin-bottom:16px"><div style="width:50px;height:65px;background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2));border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🚀</div><div><div style="font-size:11px;color:#06b6d4;font-weight:600;text-transform:uppercase">Business</div><h3 style="font-size:15px;font-weight:700;line-height:1.3">Side Hustles That Work in SA</h3></div></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:20px;font-weight:800">R129</span><button class="btn-primary" style="padding:8px 18px;font-size:13px">Buy on Amazon</button></div></div><div class="card"><div style="display:flex;align-items:center;gap:12px;margin-bottom:16px"><div style="width:50px;height:65px;background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2));border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">💼</div><div><div style="font-size:11px;color:#06b6d4;font-weight:600;text-transform:uppercase">Career</div><h3 style="font-size:15px;font-weight:700;line-height:1.3">The SA Job Hunt Guide</h3></div></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:20px;font-weight:800">R79</span><button class="btn-primary" style="padding:8px 18px;font-size:13px">Buy on Amazon</button></div></div><div class="card"><div style="display:flex;align-items:center;gap:12px;margin-bottom:16px"><div style="width:50px;height:65px;background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2));border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">🧾</div><div><div style="font-size:11px;color:#06b6d4;font-weight:600;text-transform:uppercase">Finance</div><h3 style="font-size:15px;font-weight:700;line-height:1.3">Tax Made Simple (SARS Guide)</h3></div></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:20px;font-weight:800">R149</span><button class="btn-primary" style="padding:8px 18px;font-size:13px">Buy on Amazon</button></div></div><div class="card"><div style="display:flex;align-items:center;gap:12px;margin-bottom:16px"><div style="width:50px;height:65px;background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2));border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">💻</div><div><div style="font-size:11px;color:#06b6d4;font-weight:600;text-transform:uppercase">Business</div><h3 style="font-size:15px;font-weight:700;line-height:1.3">Freelancing in South Africa</h3></div></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:20px;font-weight:800">R119</span><button class="btn-primary" style="padding:8px 18px;font-size:13px">Buy on Amazon</button></div></div><div class="card"><div style="display:flex;align-items:center;gap:12px;margin-bottom:16px"><div style="width:50px;height:65px;background:linear-gradient(135deg,rgba(6,182,212,0.2),rgba(59,130,246,0.2));border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:24px">📈</div><div><div style="font-size:11px;color:#06b6d4;font-weight:600;text-transform:uppercase">Finance</div><h3 style="font-size:15px;font-weight:700;line-height:1.3">Investing 101 for SA Beginners</h3></div></div><div style="display:flex;justify-content:space-between;align-items:center"><span style="font-size:20px;font-weight:800">R89</span><button class="btn-primary" style="padding:8px 18px;font-size:13px">Buy on Amazon</button></div></div>
+    </div>
+  </div></section>
+  <section class="subscribe-section" id="subscribe"><div class="container">
+    <h2 style="font-size:24px;font-weight:800;margin-bottom:12px">New Book Alerts</h2>
+    <p style="color:#888;margin-bottom:24px;font-size:14px">Get notified when we publish new guides for the SA market.</p>
+    <form class="subscribe-form" onsubmit="fetch('https://posh-rabbit-536.convex.site/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:this.email.value,businessId:'ebooks'})}).then(()=>{this.reset();document.getElementById('sub-msg').style.display='block'})">
+      <input type="email" name="email" placeholder="you@email.com" required>
+      <button type="submit" class="btn-primary">Subscribe</button>
+    </form>
+    <p id="sub-msg" class="subscribe-msg">✓ Subscribed!</p>
+  </div></section>
+  <footer><div class="container">© 2026 SA Books AI. All rights reserved.</div></footer>
+</body></html>
